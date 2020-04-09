@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 
 driver = webdriver.Chrome(c.driverPath,chrome_options=chrome_options)
 ###
-driver = webdriver.Chrome(c.driverPath)
+#driver = webdriver.Chrome(c.driverPath)
 driver.get('http://www.google.com/xhtml');
 driver.get(c.gLink)
 driver.find_element_by_name(c.identifierElement).send_keys(c.gmailId)
