@@ -2,7 +2,7 @@ driverPath = '/usr/lib/chromium-browser/chromedriver'
 gLink = "https://accounts.google.com"
 identifierElement = "identifier"
 ## Give gmail id 
-gmailId = "pranjal@doctormm.com"
+gmailId = "xyz@doctormm.com"
 
 xpathNext = '//*[@id="identifierNext"]/span/span'
 passElement = "password"
